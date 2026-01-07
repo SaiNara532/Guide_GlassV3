@@ -266,9 +266,9 @@ class MainYolo : ComponentActivity() {
         val obj = sigmoid(p[4])
         if (obj <= 1e-6) return
         var best = 0f; var cls = 0
-        for (c in 5 until 84) {
+        for (c in 4 until 84) {
             val sc = obj * sigmoid(p[c])
-            if (sc > best) { best = sc; cls = c - 5 }
+            if (sc > best) { best = sc; cls = c - 4 }
         }
         if (best < conf) return
 
