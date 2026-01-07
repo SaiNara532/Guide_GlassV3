@@ -26,16 +26,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GuideGlass">
 
-
-        <activity android:name=".home.HomeActivity"
-            android:exported="true">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.GuideGlass">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".yolo.MainYolo"
+            android:exported="false" />
+
     </application>
 
 
