@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="24dp">
+
+    <TextView
+        android:text="Impaired Vision Helper"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_marginBottom="32dp" android:layout_height="32dp" android:layout_width="32dp"/>
+
+    <Button
+        android:id="@+id/btnYolo"
+        android:text="Start Object Detection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:backgroundTint="#007AFF"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
